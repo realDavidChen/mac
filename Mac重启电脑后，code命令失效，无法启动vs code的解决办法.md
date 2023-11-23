@@ -9,7 +9,7 @@ mdfind "kMDItemCFBundleIdentifier == 'com.microsoft.VSCode'"
 /Users/你的计算机名/Downloads/Visual Studio Code.app
 ```
 
-在你的 .zshrc 文件中，你可以添加如下的别名行(不知道自己的计算机名也可以用 $ whoam1 命令在terminal中查到)：
+在你的 .zshrc 文件中，你可以添加如下的别名行(不知道自己的计算机名也可以用 $ whoami 命令在terminal中查到)：
 
 ```
 alias code="/Users/你的计算机名/Downloads/Visual\\ Studio\\ Code.app/Contents/Resources/app/bin/code"
